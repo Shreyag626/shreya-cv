@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shreya Gupta | Amazon Style CV</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAEDED;
+    transition: background 0.3s, color 0.3s;
+}
+.dark-mode {
+    background-color: #111;
+    color: #eee;
+}
+
+/* ===== NAVBAR ===== */
+.topbar {
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo { font-size: 24px; font-weight: bold; color: #FF9900; }
+.search-bar { flex-grow: 1; }
+.search-bar input {
+    width: 100%; padding: 8px; border-radius: 4px; border: none;
+}
+.nav-links { font-size: 14px; }
+
+/* ===== SUBNAV ===== */
+.subnav {
+    background-color: #232F3E;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* ===== LAYOUT ===== */
+.container { display: flex; padding: 20px; gap: 20px; }
+.left-panel, .right-panel {
+    background: white; border-radius: 6px; padding: 20px;
+}
+.dark-mode .left-panel, .dark-mode .right-panel { background: #1b1b1b; }
+
+.left-panel { width: 30%; text-align: center; }
+.profile-box {
+    background: #f3f3f3; padding: 40px 10px;
+    font-size: 18px; font-weight: bold;
+}
+.dark-mode .profile-box { background: #2a2a2a; }
+
+.right-panel { width: 70%; }
+
+title { font-size: 22px; font-weight: bold; }
+.rating { color: #FFA41C; margin: 6px 0; }
+
+.price-box {
+    background: #f7f7f7; padding: 10px;
+    border: 1px solid #ddd; margin: 10px 0;
+}
+.dark-mode .price-box { background: #222; border-color: #444; }
+
+.section-title {
+    font-weight: bold; margin-top: 20px;
+    border-bottom: 2px solid #ddd; padding-bottom: 5px;
+}
+.dark-mode .section-title { border-color: #444; }
+
+ul { margin-top: 8px; }
+
+.badge {
+    background: #CC0C39; color: white;
+    padding: 3px 6px; font-size: 12px;
+    border-radius: 3px; margin-right: 5px;
+}
+
+/* ===== JOB CARDS ===== */
+.job {
+    margin-top: 15px; padding: 10px;
+    border: 1px solid #ddd; border-radius: 4px;
+    background: #fafafa;
+}
+.dark-mode .job { background: #1f1f1f; border-color: #444; }
+.job-title { font-weight: bold; }
+
+/* ===== BUTTONS ===== */
+.button {
+    display: inline-block;
+    background: #FFD814;
+    padding: 10px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 5px 5px 5px 0;
+    border: 1px solid #FCD200;
+}
+.button:hover { background: #F7CA00; }
+
+.secondary-btn {
+    background: #FFA41C;
+    border-color: #FF8F00;
+}
+
+.toggle-btn {
+    background: #232F3E;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+    <div class="logo">amazon<span style="color:white;">.cv</span></div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search Shreya's skills, experience, achievements...">
+    </div>
+    <div class="nav-links">Account | CV Lists | Contact</div>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+</div>
+
+<div class="subnav">
+    Operations | Program Management | Business Strategy | Analytics | Leadership
+</div>
+
+<div class="container">
+
+    <div class="left-panel">
+        <div class="profile-box">
+            SHREYA GUPTA<br>
+            Business Operations & Program Specialist
+        </div>
+        <p><b>Location:</b> India | UK Experience</p>
+        <p><b>Email:</b> shreyawarwick@gmail.com</p>
+        <p><b>Phone:</b> +91 9205862140</p>
+        <a class="button" href="mailto:shreyawarwick@gmail.com">Contact Candidate</a>
+        <a class="button secondary-btn" href="#">Download Resume</a>
+    </div>
+
+    <div class="right-panel">
+        <div class="title">Shreya Gupta – Operations, Program & Business Strategy Professional</div>
+        <div class="rating">★★★★★ | 8+ Years Experience | Customer-Obsessed Operator</div>
+
+        <div class="price-box">
+            <span class="badge">TOP CANDIDATE</span>
+            Proven impact in revenue growth, process optimization & cross-functional leadership
+        </div>
+
+        <a class="button">Hire for Program Role</a>
+        <a class="button">Hire for Operations Role</a>
+
+        <div class="section-title">Key Features</div>
+        <ul>
+            <li>Program & Operations Management</li>
+            <li>Process Improvement & Cost Reduction</li>
+            <li>Stakeholder & Vendor Management</li>
+            <li>Data-Driven Decision Making</li>
+            <li>KPI Tracking & Business Metrics</li>
+            <li>Customer Experience Optimization</li>
+        </ul>
+
+        <div class="section-title">Amazon Leadership Principles Alignment</div>
+        <ul>
+            <li><b>Customer Obsession:</b> Improved satisfaction and service delivery metrics</li>
+            <li><b>Ownership:</b> Led cross-functional initiatives improving revenue and processes</li>
+            <li><b>Bias for Action:</b> Reduced turnaround cycles and hiring timelines</li>
+            <li><b>Dive Deep:</b> Used metrics & reporting to drive decisions</li>
+            <li><b>Deliver Results:</b> Consistent KPI improvements across roles</li>
+        </ul>
+
+        <div class="section-title">Professional Experience</div>
+
+        <div class="job">
+            <div class="job-title">Program Manager – Masters’ Union</div>
+            Led 7-member team, improved admissions conversion, reduced hiring TAT by 25%, and optimized enrolment funnel.
+        </div>
+
+        <div class="job">
+            <div class="job-title">Education Consultant – IDP Education</div>
+            100% visa success rate, structured £120M+ financing, closed partnerships, and trained new advisors.
+        </div>
+
+        <div class="job">
+            <div class="job-title">Business Operations Associate – Decathlon</div>
+            Increased sales by 5.6%, improved customer satisfaction, reduced losses by 50%, improved reporting accuracy.
+        </div>
+
+        <div class="job">
+            <div class="job-title">International Student Ambassador – University of Warwick</div>
+            Supported operations, events, and reporting to improve international student services.
+        </div>
+
+        <div class="section-title">Projects</div>
+        <ul>
+            <li>Financial ROI Model – Target Corp.</li>
+            <li>UK Education Market Strategy Study</li>
+            <li>L’Oréal Digital Growth Roadmap</li>
+        </ul>
+
+        <div class="section-title">Skills</div>
+        <ul>
+            <li>Excel, PowerPoint, Salesforce, SAP, Tableau, R</li>
+            <li>Financial Modelling & KPI Reporting</li>
+            <li>Process Optimization & SOP Design</li>
+            <li>Program Roadmapping & Execution</li>
+            <li>Team Leadership & Performance Coaching</li>
+        </ul>
+
+        <div class="section-title">Education</div>
+        <ul>
+            <li>MSc Management (Consulting) – University of Warwick</li>
+            <li>Sustainable Finance – Solvay Brussels School</li>
+            <li>B.E. Biotechnology – IILM Delhi NCR</li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="footer">© 2026 Shreya Gupta | Amazon-Style Interactive CV</div>
+
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
